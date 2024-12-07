@@ -1,0 +1,160 @@
+p{
+    text-align: center;
+    margin: auto;
+  
+     
+    
+    }
+    
+     .he{
+
+ background-image:url("https://img.freepik.com/free-photo/abstract-green-smoke-move-black-background_23-2148092346.jpg?t=st=1733533515~exp=1733537115~hmac=ede943a37758cdea1b365a50ead21abcf03667bd9a53e33a1a818d18e01cef66&w=1380") ;
+    background-repeat: no-repeat;
+    background-attachment: scroll ;
+position: relative;
+height: 300px;
+
+background-size: 100%;
+     }
+    
+    
+   .div1{
+    letter-spacing: 4px;
+    text-shadow: 2px  1px gray;
+    color:white;
+    font-size: 30px;
+    padding-top: 100px ;
+   text-transform: uppercase;
+    margin: auto;
+ animation-name:up-and-down;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+@keyframes up-and-down{  
+to{
+transform:translatey(30px);
+}
+}
+
+.do{
+    background-image: url("https://img.freepik.com/free-photo/yellow-dense-fume-smoke-abstract-black-background_23-2148092437.jpg?t=st=1733536073~exp=1733539673~hmac=80e912fe56b910d5c16ee523e3d4a9615d76baef3575017ff653d19c25cc1af7&w=1060");
+ background-repeat:no-repeat;
+    background-size: 100%;
+height: 300px;
+position: relative;
+
+}
+
+
+
+.div2{
+    letter-spacing: 4px;
+    text-shadow: 2px  1px gray;
+    color:white;
+    font-size: 36px;
+    padding-top: 100px  ;
+    text-transform: uppercase;
+    margin: auto;
+    animation-name:apacity1 ;
+animation-duration: 1s;
+animation-timing-function:linear ;
+animation-iteration-count: infinite;
+
+
+}
+
+
+
+@keyframes opacity1{
+from{
+
+opacity: 0;
+}
+    to{
+opacity: 90;
+
+}
+}
+.gr{
+
+background-image: url("https://img.freepik.com/free-photo/close-up-yellow-smoke-against-black-background_23-2148092351.jpg?t=st=1733537600~exp=1733541200~hmac=a9e54f346b4cd9240794013681afa42bdf030f6a90865fb6b1772c06a7e25bac&w=1060");
+height:  300px ;
+background-repeat: no-repeat;
+background-size: 100%;
+position: relative;
+background-attachment: scroll;
+
+
+}
+
+.div3{
+
+    letter-spacing: 4px;
+color:white;
+font-size: 36px;
+padding-top: 100px ;
+text-transform: uppercase;
+text-shadow: 2px  1px gray;
+margin: auto;
+
+
+animation-name:ihad;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+
+
+@keyframes jihad{
+
+to{ transform: rotate(360deg);}
+
+
+}
+
+
+.go{
+
+background-image: url("https://img.freepik.com/free-photo/abstract-smoke-swirling-movement-black-background_23-2148092736.jpg?t=st=1733538346~exp=1733541946~hmac=d31b9bc29fb0ad82bb31706894f522d170224dc36600e5abc02d0960f1b17349&w=360");
+background-size: 100%;
+background-repeat: no-repeat;
+height: 300px;
+position:relative;
+}
+
+
+
+
+.div4{
+    letter-spacing: 4px;
+    text-shadow: 2px  1px gray;
+text-transform: uppercase;
+color:white;
+padding-top: 100px;
+font-size: 36px;
+margin: auto;
+animation-name: good;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+}
+@keyframes good{
+
+    to{
+
+
+        transform: scale(0px);
+    }
+}
+
+
+
+   
+
+
+
+
+
